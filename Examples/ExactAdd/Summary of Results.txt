@@ -1,0 +1,60 @@
+Estimation with exact predictions, OptimMethod='fmincon'
+
+ Log LK = -19.0057
+    AIC = 44.0114
+    BIC = 45.205
+   
+    ParNum    Theta    Theta0    Theta_Est    Conf_Inter
+    ______    _____    ______    _________    __________
+
+      1       0.25      0.35      0.24445      0.013363 
+      2          5         3      5.35220      1.472200 
+      4        0.1      0.14      0.10477      0.033649 
+ 
+
+**********************
+Estimation with adaptive deterministic filter, OptimMethod='fmincon' 
+
+ Estimation Summary  
+   
+ Log LK = -19.0062
+    AIC = 44.0124
+    BIC = 45.2061
+   
+    ParNum    Theta    Theta0    Theta_Est    Conf_Inter
+    ______    _____    ______    _________    __________
+
+      1       0.25      0.35      0.24445      0.013362 
+      2          5         3       5.3383        1.4683 
+      4        0.1      0.14      0.10469      0.033605 
+
+
+**********************
+Estimation with classical LL filter, OptimMethod='fmincon'
+
+ Log LK = -22.7419
+    AIC = 51.4838
+    BIC = 52.6775
+   
+    ParNum    Theta    Theta0    Theta_Est    Conf_Inter
+    ______    _____    ______    _________    __________
+
+      1       0.25      0.35      0.21915      0.012431 
+      2          5         3      4.43760      1.339300 
+      4        0.1      0.14      0.14972      0.039838 
+
+
+**********************
+Estimation with stochastic LL filter, OptimMethod='fmincon'
+
+Log LK = -18.9686
+    AIC = 43.9373
+    BIC = 45.131
+   
+    ParNum    Theta    Theta0    Theta_Est    Conf_Inter
+    ______    _____    ______    _________    __________
+
+      1       0.25      0.35      0.24153      0.012981 
+      2          5         3       5.0765        1.3863 
+      4        0.1      0.14     0.096648      0.031623 
+

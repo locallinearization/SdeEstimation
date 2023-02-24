@@ -1,0 +1,76 @@
+Estimation with exact predictions, OptimMethod='UMDA+fmincon'
+
+ Log LK = 1006.838
+    AIC = -2007.6759
+    BIC = -1996.4954
+   
+    ParNum     Theta     Theta_Est    Conf_Inter
+    ______    _______    _________    __________
+
+      1        0.0189    0.022179      0.0007763
+      2       -0.2339   -0.149150      0.0116280
+      3       0.08544    0.082212      0.0003151
+ 
+
+**********************
+Estimation with adaptive deterministic filter, OptimMethod='UMDA+fmincon'
+
+ Log LK = 1006.834
+    AIC = -2007.668
+    BIC = -1996.4875
+   
+    ParNum     Theta     Theta_Est    Conf_Inter
+    ______    _______    _________    __________
+
+      1        0.0189    0.022179      0.0007764
+      2       -0.2339   -0.149150      0.0116280
+      3       0.08544    0.082191      0.0003148
+
+
+**********************
+Estimation with classical LL filter, OptimMethod='UMDA+fmincon'
+
+ Log LK = 1006.834
+    AIC = -2007.6679
+    BIC = -1996.4874
+   
+    ParNum     Theta     Theta_Est    Conf_Inter
+    ______    _______    _________    __________
+
+      1        0.0189    0.022176      0.0007764
+      2       -0.2339   -0.149130      0.0116280
+      3       0.08544    0.082191      0.0003148
+
+
+**********************
+Estimation with exact predictions, OptimMethod='fmincon'
+
+ Log LK = 1006.838
+    AIC = -2007.6759
+    BIC = -1996.4954
+   
+    ParNum     Theta     Theta0     Theta_Est    Conf_Inter
+    ______    _______    _______    _________    __________
+
+      1        0.0189     0.0189     0.022174     0.00077636
+      2       -0.2339    -0.2339    -0.14912      0.011628
+      3       0.08544    0.08544     0.082212     0.0003151
+
+
+**********************
+Estimation with stochastic LL filter, OptimMethod='fmincon'
+
+Log LK = 1005.3392
+    AIC = -2004.6783
+    BIC = -1993.4978
+   
+    ParNum     Theta     Theta0     Theta_Est    Conf_Inter
+    ______    _______    _______    _________    __________
+
+      1        0.0189     0.0189    0.025445     0.00077893
+      2       -0.2339    -0.2339    -0.16288       0.011665
+      3       0.08544    0.08544     0.08276     0.00031674
+
+
+
+ 
